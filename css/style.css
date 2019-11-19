@@ -1,0 +1,109 @@
+:root{
+    box-sizing: border-box;
+}
+
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    background-color: #DBF7F9;
+    margin-left: 4em;
+    margin-right: 4em;
+    
+    margin-top: 3em;
+}
+header{
+    background-color: #5FA7AD;
+    margin-left: -4em;
+    margin-right: -4em;
+    margin-top: -4em;
+    height: 7em;
+    
+}
+h1{
+text-align: center;
+size: 100em;
+margin-bottom: 1em;
+margin-top: 2em;
+
+}
+a {
+    color: whitesmoke;
+    height:80px;
+    width:17em;
+    float:left;
+    margin: 0em 2em;
+    text-align: center;
+
+
+	
+}
+
+
+.slider{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    padding: 0;
+    display: flex;
+    width: 100em ;
+    animation: cambio 40s infinite;
+    animation-direction: alternate;
+}
+.slider li{
+    width: 100em;
+    list-style: none;
+}
+
+
+.slider img{
+
+    justify-content: center;
+    width: 100em;
+    
+    }
+    
+@keyframes cambio{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+
+
+}
+img{
+
+    margin-top: -7em;
+    margin-left: -4em;
+}
+    
+h3{
+    text-align: center;
+margin-top: 1em;
+}
+
+footer{
+    background-color: #C1D0DC;
+    height: 4em;
+    color: rgb(0, 0, 0);
+    margin-top: 2em;
+    margin-right: -4em;
+    margin-left: -4em;
+    width:100%
+}
+h4{
+    text-align: center;
+    margin-top: 2em;
+size: 5em;
+}
